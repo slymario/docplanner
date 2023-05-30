@@ -1,0 +1,47 @@
+ALGORITHM three_nb_sum
+VAR
+    name : STRING;
+    num1,num2,num3 : INTEGER;
+    sum : INTEGER := 0;
+    _firstName1 := name;
+CONST
+    age : INTEGER := 10
+BEGIN
+    Read(num1);
+    Read(num2);
+    Read(num3);
+    sum := num1 + num2 + num3;
+    Write(sum);
+    if(sum >= 100){
+        if(sum == 1){
+            //Run code
+        }elseif(sum >= 0){
+            //Run code
+        }elseif(){
+
+        }else{
+
+        }
+    //Code to run
+    }else{
+        //Run this code
+        SWITCH (sum) DO
+            CASE 1 : 
+                // code to be executed if sum = 1;
+                BREAK; // BREAK is used to skip the other cases
+            CASE 2 : 
+                // code to be executed if sum = 2;
+                BREAK;
+            CASE 100 : 
+                // code to be executed if sum = 100;
+                BREAK;
+            DEFAULT :  // code to be executed if n doesn't match any cases
+        END_SWITCH
+
+    }
+
+    ticket_price := 20 ;
+    IF (age <=16) THEN
+        ticket_price := 10 ;
+    END_IF
+END
