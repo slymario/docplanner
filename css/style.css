@@ -76,21 +76,23 @@ header img{
     width: 100px;
     align-items: center;
     justify-content: center;
-    position: relative;
-    gap: 2.5rem;
+    gap: 1rem;
     font-size: 1.5em;
-    padding: 0 20px;
+    padding-right: 20px;
+    padding-left: 20px;
     font-weight: 300;
     color: #fff !important;
-    line-height: 1.2;
+    line-height: 1;
     margin: 3rem auto 2rem;
     font-family: 'Work Sans', Arial, sans-serif;
     max-width: 1015px;
-    padding-right: 20px;
+    /*position: relative;*/
+    
 }
 .forsection img{
     width: 50px;
-    height: fit-content;
+    height: auto;
+
 }
 .for1 select{
     background-color: #00ccb1;
@@ -116,6 +118,9 @@ header img{
     margin-bottom: 30px;
     font-size: bold;
 }
+#main1{
+    
+}
 #for1title, 
 #for2title, 
 #for3title{
@@ -124,6 +129,7 @@ header img{
     color: #fff;
     margin: 0 3em 0;
     font-family:'Work Sans', Arial, sans-serif;
+    text-align: justify;
 }
 .section-3{
     display: flex;
@@ -301,7 +307,8 @@ header img{
 div .buttons{
     justify-content: space-between;
     display: flex;
-}.country div:hover{
+}
+.country div:hover{
     background-color: aliceblue;
 }
 .section-7{
